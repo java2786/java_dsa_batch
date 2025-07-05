@@ -1,0 +1,18 @@
+Our menu
+1. Dosa - Rs 50
+2. Idli - Rs 25
+3. ColdDrink - Rs 50
+Dosa Quantity: 2
+Idli Quantity: 3
+ColdDrink Quantity: 0
+
+
+===========Mohan's Bill=============
+Dosa: 2x Rs 50 = 100
+Idli: 3x Rs 25 = 75
+ColdDrink: 0x Rs 50 = 0
+
+
+--------------------------------------------------------------------
+Total bill: Rs 175
+Thank you
