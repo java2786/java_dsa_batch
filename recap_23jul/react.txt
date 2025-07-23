@@ -1,0 +1,39 @@
+Class Noun{
+    public static void main(String[] arg){
+        .. execute
+    }
+}
+
+
+
+Datatypes -> 
+int, float, double, char, boolean => number
+
+String, array, object => memory => address
+
+
+    int a = 5;
+
+    String name = "Ramesh";
+
+
+logic -> operators -> +, *, /, -, %
+    int a = 32;
+    int b = 5;
+    System.out.println(a+b);
+    System.out.println(a*b);
+    System.out.println(a/b); // quotient
+    System.out.println(a%b); // remainder
+    System.out.println(a-b);
+
+
+    int a = 32;
+    int b = 5;
+
+    if(a>b){
+        System.out.println("a is greater than b");
+    } else {
+        System.out.println("a is lesser than b");
+    }
+
+
