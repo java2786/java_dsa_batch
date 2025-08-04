@@ -1,0 +1,31 @@
+print reverse num
+print sum of digits
+print factorial of a number
+print if armstrong number 
+print if strong number 
+print triangle
+
+input - 12345
+1
+2
+3
+4
+5
+
+
+******
+     *
+     *
+******
+     *
+     *
+******
+
+
+******
+*    *
+*    *
+******
+     *
+     *
+     *
