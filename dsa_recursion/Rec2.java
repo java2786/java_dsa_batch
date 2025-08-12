@@ -9,7 +9,7 @@ public class Rec2 {
         if(num == 5){
             return;
         }
-        printName(num);
-        System.out.println("Arun: "+ num++);
+        printName(++num);
+        System.out.println("Arun: "+ num);
     }
 }
