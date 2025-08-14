@@ -1,0 +1,22 @@
+Q1. Count number of zero’s in a number
+Q2. Convert Binary nUmber to Decimal
+Q3. Sum of n Natural numbers
+Q4. find out number is strong number or not
+Q5. count even and odd digits in a number
+
+Q6. given number is 2 power is 5
+Q7. armstrong number
+Q8. print table of any number
+Q9. factorial of a number
+
+Q10. Number to string conversion, 123 => one two three
+Q11. Product digit problem
+    n1 = 36
+    n2 = 4532
+    6 * 2 +  3 * 3 + 0 * 5 + 0 * 4 = 21
+
+Q12. Binary to Decimal
+Q13. Decimal to Binary
+
+
+
