@@ -1,0 +1,5 @@
+Find if given array is sorted
+Second largest value
+Min, Max, Average, Sum of all the elements of array
+
+zigzag - geekforgeeks

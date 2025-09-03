@@ -1,112 +1,68 @@
 1: Basics – Printing, Variables, Data Types
 Print your name, college name, and city using three separate variables.
-
 Store the marks of three subjects and calculate the total marks.
-
 Declare a variable for temperature in Celsius and print it in the format: “Today's temperature is 36°C.”
-
 Create three variables: name, age, and city. Print a self-introduction using them.
-
 Create a variable price = 299.99 and quantity = 3. Print the total bill amount.
-
 2: Input, Arithmetic Operators, Type Conversion
 Take name and age as input and print them in a sentence.
-
 Take input of two numbers and print their sum, difference, product, and quotient.
-
 Input radius of a circle and calculate its area.
-
 Input two numbers and swap them using a third variable.
-
 Take marks in 5 subjects and print total, average, and percentage.
-
-
-
 
 
 3: Conditional Statements (if, if-else, else-if)
 Take a number and print whether it's positive, negative, or zero.
-
 Input age and print if the person is eligible for voting.
-
 Input two numbers and print the greater number.
-
 Input marks and print grade as per this rule:
-
 90+: Grade A
-
 75–89: Grade B
-
 50–74: Grade C
-
 <50: Fail
-
 Take a year as input and check if it is a leap year or not.
-
-
-
 
 
 4: Logical Operators, Nested if, Switch
 Take three numbers and print the largest.
-
 Input a character and check if it's a vowel or consonant.
-
 Input a number and print whether it’s divisible by 3 and 5 both.
-
 Input day number (1 to 7) and print the corresponding day using switch-case.
-
 A student is allowed to sit in exam if attendance is >=75%. Input total classes and attended classes and print eligibility.
-
-
-
-
 
 
 
 5: Loops (for, while, do-while)
 Print numbers from 1 to 50 using a for loop.
-
 Input a number and print its multiplication table.
-
 Print the sum of first N natural numbers.
-
 Print all even numbers from 1 to 100.
-
 Print this pattern using nested loops (take row input):
 *
 * *
 * * *
 * * * *
-
 1
 1 2
 1 2 3
 1 2 3 4
-
 1
 2 2
 3 3 3
 4 4 4 4
-
 abcd
-
 * * * *
 * * * 
 * * 
 * 
-
       *
     * *
   * * *
 * * * *
-
-* * * *
   * * *
     * *
       *
-
-
 
 
 
