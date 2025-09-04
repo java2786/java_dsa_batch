@@ -1,5 +1,3 @@
-package array_project.src;
-
 import java.util.Arrays;
 
 public class D3_zigzag {
