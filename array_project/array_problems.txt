@@ -3,3 +3,6 @@ Second largest value
 Min, Max, Average, Sum of all the elements of array
 
 zigzag - geekforgeeks
+
+https://leetcode.com/problems/rotate-array/description/
+https://www.geeksforgeeks.org/dsa/maximum-consecutive-ones-or-zeros-in-a-binary-array/
