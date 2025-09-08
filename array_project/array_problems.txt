@@ -7,5 +7,3 @@ zigzag - geekforgeeks
 https://leetcode.com/problems/rotate-array/description/
 https://www.geeksforgeeks.org/dsa/maximum-consecutive-ones-or-zeros-in-a-binary-array/
 
-
-[1,1,0,2,2,2,2,0,0,1,1]
