@@ -7,3 +7,5 @@ zigzag - geekforgeeks
 https://leetcode.com/problems/rotate-array/description/
 https://www.geeksforgeeks.org/dsa/maximum-consecutive-ones-or-zeros-in-a-binary-array/
 
+392 - is subsequence
+136 - single number

@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution {
+public class D11_MissingNum {
     public int missingNumber4(int[] nums) {
         // 3 0 1
         int result = nums.length; // 3
@@ -39,9 +39,7 @@ class Solution {
         }
         return nums.length;
    }
-}
 
-public class D11_MissingNum {
     public static void main(String[] args) {
         int[] nums = {3,0,1};
         int result = nums.length; // 3

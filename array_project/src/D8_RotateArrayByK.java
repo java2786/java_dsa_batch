@@ -1,7 +1,5 @@
-public @interface D8_RotateArrayByK {
+public class D8_RotateArrayByK {
     
-}
-class Solution {
     public void rotate(int[] nums, int k) {
         k = k%nums.length;
         
