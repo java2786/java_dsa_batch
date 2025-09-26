@@ -17,16 +17,12 @@ class Maruti extends Car{
 
 public class Demo {
     public static void main(String[] args) {
-        // final int a = 55;
-        // // a = 33;
+        int a = -11;
+        int b = 2;
 
-        // System.out.println(a);
-
-        // Car car = new Maruti();
-        // car.run();
-
-
-        String s = "IceCreAm";
-        char[] arr = s.toCharArray();
+        System.out.println("a/b: "+a/b); // -5
+        System.out.println("(double)a/b: "+(double)a/b);
+        System.out.println("a/(double)b: "+a/(double)b);
+        System.out.println("(double)(a/b): "+ (double)(a/b)); // -5.0
     }
 }
