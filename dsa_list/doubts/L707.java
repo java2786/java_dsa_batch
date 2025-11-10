@@ -120,6 +120,7 @@ class MyLinkedList {
             System.out.println("[]");
         }
         start = head;
+        
         // System.out.println(start.val);
     }
 }
