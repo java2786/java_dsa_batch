@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 class Node{
@@ -25,6 +27,12 @@ public class TreeDemo {
 40 50     60
    /
   70
+
+10 20 30 40 50 60 70 
+10 
+20 30 
+40 50 60 
+70 
     */
 
 
@@ -76,7 +84,7 @@ public class TreeDemo {
             return;
         }
 
-        String cv = String.valueOf(root.val);
+        String cv = root.val+"";
         if(root.left!=null){
             cv = cv + ", Left: "+root.left.val;
         }
@@ -87,8 +95,58 @@ public class TreeDemo {
         preOrder(root.left);
         preOrder(root.right);
     }
+
+    static void levelOrder_1(Node root){
+        Queue<Node> queue = new LinkedList<>();
+
+        queue.offer(root);
+
+        while(queue.size()!=0){
+            Node current = queue.poll();
+            System.out.print(current.val+" ");
+            if(current.left!=null){
+                queue.offer(current.left);
+            }
+            if(current.right!=null){
+                queue.offer(current.right);
+            }
+        }
+    }    static void levelOrder_2(Node root){
+        Queue<Node> queue = new LinkedList<>();
+
+        queue.offer(root);
+
+        while(queue.size()!=0){
+            int size = queue.size();
+            for(int i=0;i<size;i++){
+                Node current = queue.poll();
+                System.out.print(current.val+" ");
+                if(current.left!=null){
+                    queue.offer(current.left);
+                }
+                if(current.right!=null){
+                    queue.offer(current.right);
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    static int getHeight(Node root){
+        if(root == null){
+            return 0;
+        }
+        int lh = getHeight(root.left);
+        int rh = getHeight(root.right);
+       return 1+Math.max(lh, rh);
+    }
+    static int count(Node root){
+        return 0;
+    }
     public static void main(String[] args) {
         Node root = createTree2();
-        preOrder(root);
+        // preOrder(root);
+        // levelOrder_2(root);
+        System.out.println(getHeight(root));
     }
 }
