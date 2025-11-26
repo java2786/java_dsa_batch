@@ -238,6 +238,50 @@ t2.join()
   
 print("All downloads complete!")  
 ```  
+#### Simple Thread Example (Java)
+```java
+class DownloadFile implements Runnable {
+    private String filename;
+
+    public DownloadFile(String filename) {
+        this.filename = filename;
+    }
+
+    @Override
+    public void run() {
+        System.out.println("Downloading " + filename + "...");
+        try {
+            Thread.sleep(2000); // Simulates the time taken to download the file
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println(filename + " downloaded!");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        // Create threads
+        Thread t1 = new Thread(new DownloadFile("Movie.mp4"));
+        Thread t2 = new Thread(new DownloadFile("Song.mp3"));
+
+        // Start threads (parallel execution)
+        t1.start();
+        t2.start();
+
+        // Wait for completion
+        try {
+            t1.join();
+            t2.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("All downloads complete!");
+    }
+}
+
+```
   
 ---  
   
