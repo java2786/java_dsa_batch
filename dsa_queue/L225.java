@@ -7,7 +7,7 @@ public class L225 {
 class MyStack {
 
     Queue<Integer> q = new LinkedList<>();
-    
+
     public void push(int x) {
         q.add(x);
     }
